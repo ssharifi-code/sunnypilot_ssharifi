@@ -1453,6 +1453,7 @@ FW_VERSIONS = {
     (Ecu.fwdRadar, 0x750, 15): [
       b'8821F4702300\x00\x00\x00\x00',
     ],
+  },
   CAR.LEXUS_LC_TSS2: {
     (Ecu.engine, 0x7e0, None): [
       b'\x0131130000\x00\x00\x00\x00\x00\x00\x00\x00',
