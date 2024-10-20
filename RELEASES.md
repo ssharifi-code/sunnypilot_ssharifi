@@ -1,6 +1,7 @@
 Version 0.9.8 (2024-XX-XX)
 ========================
 * Added toggle to enable driver monitoring even when openpilot is not engaged
+* Lexus LC 500 2018 support thanks to ssharifi-code!
 
 Version 0.9.7 (2024-06-13)
 ========================
