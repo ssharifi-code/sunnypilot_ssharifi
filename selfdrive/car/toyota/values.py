@@ -312,12 +312,12 @@ class CAR(Platforms):
   LEXUS_LC_TSSP = PlatformConfig(
     [ToyotaCarDocs("Lexus LC 2018")],
     CarSpecs(mass=4500. * CV.LB_TO_KG, wheelbase=2.87, steerRatio=13.0, tireStiffnessFactor=0.444),
+    dbc_dict('toyota_new_mc_pt_generated', 'toyota_adas'),
+    flags=ToyotaFlags.UNSUPPORTED_DSU,
   )
   LEXUS_LC_TSS2 = ToyotaTSS2PlatformConfig(
     [ToyotaCarDocs("Lexus LC 2024")],
     CarSpecs(mass=4500. * CV.LB_TO_KG, wheelbase=2.87, steerRatio=13.0, tireStiffnessFactor=0.444),
-    dbc_dict('toyota_new_mc_pt_generated', 'toyota_adas'),
-    flags=ToyotaFlags.UNSUPPORTED_DSU,
   )
   LEXUS_RC = PlatformConfig(
     [ToyotaCarDocs("Lexus RC 2018-20")],
