@@ -1429,17 +1429,20 @@ FW_VERSIONS = {
     ],
   },
   CAR.LEXUS_LC_TSSP: {
-      (Ecu.abs, 0x7b0, None): [
+    (Ecu.abs, 0x7b0, None): [
       b'F152611031\x00\x00\x00\x00\x00\x00',
+    ],
+    (Ecu.dsu, 0x791, None): [
+      b'881511101200\x00\x00\x00\x00',
     ],
     (Ecu.srs, 0x780, None): [
       b'8917F11021\x00\x00\x00\x00\x00\x00',
     ],
-    (Ecu.eps, 0x7a1, None): [
-      b'8965B11010\x00\x00\x00\x00\x00\x00',
-    ],
     (Ecu.hvac, 0x7c4, None): [
       b'886501101003    ',
+    ],
+    (Ecu.eps, 0x7a1, None): [
+      b'8965B11010\x00\x00\x00\x00\x00\x00',
     ],
     (Ecu.engine, 0x7e0, None): [
       b'\x0131106000\x00\x00\x00\x00\x00\x00\x00\x00',
